@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "428666919916",
+    "firebase_url": "https://agrostore-18be9-default-rtdb.firebaseio.com",
+    "project_id": "agrostore-18be9",
+    "storage_bucket": "agrostore-18be9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428666919916:android:7c21fa717a5a70c2bb3ec9",
+        "android_client_info": {
+          "package_name": "LuisCortes.AgroStore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428666919916-q2ukk8bd8cghs05rom83g78uvsqihqnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "LuisCortes.AgroStore",
+            "certificate_hash": "2787b434cf07ffe137b7e7d29da177a2d934acf6"
+          }
+        },
+        {
+          "client_id": "428666919916-u0ja8c2idih4h4shdmna7tc404lvree8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU0a9Wq_mldhT2PUC7cQ5pZ8Miat9qz5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428666919916-u0ja8c2idih4h4shdmna7tc404lvree8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428666919916:android:a5afe01c848d05dabb3ec9",
+        "android_client_info": {
+          "package_name": "com.app.agrostoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428666919916-cr8og8fat825pctqvphhn5ls34l123je.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.agrostoreapp",
+            "certificate_hash": "2787b434cf07ffe137b7e7d29da177a2d934acf6"
+          }
+        },
+        {
+          "client_id": "428666919916-u0ja8c2idih4h4shdmna7tc404lvree8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU0a9Wq_mldhT2PUC7cQ5pZ8Miat9qz5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428666919916-u0ja8c2idih4h4shdmna7tc404lvree8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

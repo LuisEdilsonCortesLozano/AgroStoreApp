@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Market">
+
+    <TextView
+        android:id="@+id/Matket_tittle"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="25dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Tienda" />
+
+    <Button
+        android:id="@+id/btnMarketBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Regresar"
+        android:layout_gravity="center_horizontal"
+        android:onClick="OnClick"/>
+
+
+
+    <ListView
+        android:id="@+id/lv_marketData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

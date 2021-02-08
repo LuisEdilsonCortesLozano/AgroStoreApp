@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Commentary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Comentarios" />
+
+    <EditText
+        android:id="@+id/txt_description_commentary"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_height="100dp"
+        android:inputType="text|textMultiLine"
+        android:gravity="top"
+        android:hint="Comentar.."
+        android:paddingTop="20dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:id="@+id/txt_product_commentary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/txt_user_commentary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCommentaryBack"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="Regresar"
+            android:onClick="OnClick"/>
+        <Button
+            android:id="@+id/btnCommentarySave"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="Comentar"
+            android:onClick="OnClick"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Lista de Comentarios" />
+
+    <ListView
+        android:id="@+id/lv_CommentaryData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

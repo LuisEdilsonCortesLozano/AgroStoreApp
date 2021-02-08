@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="LuisCortes.AgroStore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AgroStore">
+        <activity android:name=".Market"></activity>
+        <activity android:name=".Publication" />
+        <activity android:name=".MyPublication" />
+        <activity android:name=".Commentary" />
+        <activity android:name=".Presale" />
+        <activity android:name=".Store" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".Home" />
+        <activity android:name=".ShoppingCart" />
+        <activity android:name=".SearchProfile" />
+        <activity android:name=".NewPublication" />
+        <activity android:name=".NewUser" />
+        <activity android:name=".Index">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

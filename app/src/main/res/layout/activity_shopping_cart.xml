@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".ShoppingCart">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Carrito de Compras" />
+
+
+    <TextView
+        android:id="@+id/descripcion_shopping_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <TextView
+        android:id="@+id/presentacion_shopping_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presentación:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <TextView
+        android:id="@+id/precio_shopping_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:id="@+id/txt_cant_shopping_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Cantidad a Comprar"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/txt_observacion_shopping_cart"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_height="100dp"
+        android:inputType="text|textMultiLine"
+        android:gravity="top"
+        android:hint="Observaciones.."
+        android:paddingTop="20dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:id="@+id/txt_product_shopping_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="txt_product_shopping_cart"
+        android:paddingTop="20dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/txt_user_shopping_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="txt_user_shopping_cart"
+        android:paddingTop="20dp"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnShoppingCartBack"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="Regresar"
+            android:onClick="OnClick"/>
+        <Button
+            android:id="@+id/btnShoppingCartSave"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="Comprar"
+            android:onClick="OnClick"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="En el momento solo tenemos compra contra entrega, tus datos de contacto seran tomados de tu perfil."
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="6dp"/>
+
+</LinearLayout>

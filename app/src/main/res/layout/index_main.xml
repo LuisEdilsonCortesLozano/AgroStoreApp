@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Index">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="25dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Inicio" />
+
+    <EditText
+        android:id="@+id/txt_CorreoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Correo electronico"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/txt_PasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:paddingTop="20dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Ingresar"
+        android:onClick="OnClick"/>
+
+
+    <Button
+        android:id="@+id/btnNewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Registrarme"
+        android:onClick="OnClick"/>
+
+
+</LinearLayout>

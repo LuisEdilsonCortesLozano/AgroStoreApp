@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".UserProfile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="25dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Mi Cuenta" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <EditText
+        android:id="@+id/txt_nombre_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Nombre Completo"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número telefonico:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <EditText
+        android:id="@+id/txt_numero_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Número telefonico"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciudad:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <EditText
+        android:id="@+id/txt_ciudad_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Ciudad"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <EditText
+        android:id="@+id/txt_direccion_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Dirección"
+        android:paddingTop="20dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUserProfileCancel"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="Regresar"
+            android:onClick="OnClick"/>
+        <Button
+            android:id="@+id/btnUserProfileSave"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="Modificar"
+            android:onClick="OnClick"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

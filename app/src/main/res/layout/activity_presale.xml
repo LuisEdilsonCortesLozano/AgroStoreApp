@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Presale">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Vendedor" />
+
+
+    <TextView
+        android:id="@+id/nombre_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <TextView
+        android:id="@+id/numero_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <TextView
+        android:id="@+id/ciudad_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciudad:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <TextView
+        android:id="@+id/direccion_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Producto" />
+
+    <TextView
+        android:id="@+id/descripcion_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <TextView
+        android:id="@+id/presentacion_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presentación:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <TextView
+        android:id="@+id/precio_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio:"
+        android:textSize="20dp"
+        android:paddingTop="6dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:id="@+id/txt_produc_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/txt_user_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/txt_description_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/txt_nombre_publicador_presale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPresaleCancel"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="Regresar"
+            android:onClick="OnClick"/>
+
+        <Button
+            android:id="@+id/btnPresaleBuy"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="Comprar"
+            android:onClick="OnClick"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/btnPresaleComment"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Comentar"
+        android:layout_gravity="center_horizontal"
+        android:onClick="OnClick"/>
+
+
+</LinearLayout>

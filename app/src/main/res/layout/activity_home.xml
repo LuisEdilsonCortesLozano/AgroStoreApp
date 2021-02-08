@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="25dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Inicio" />
+
+     <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/btnStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Tienda"
+        android:onClick="OnClick"/>
+
+    <Button
+        android:id="@+id/btnNewPublication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Publicar"
+        android:onClick="OnClick"/>
+
+    <Button
+        android:id="@+id/btnSearchPublication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Productos"
+        android:onClick="OnClick"/>
+
+    <Button
+        android:id="@+id/btnCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Compras"
+        android:onClick="OnClick"/>
+
+    <Button
+        android:id="@+id/btnSale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Ventas"
+        android:onClick="OnClick"/>
+
+    <Button
+        android:id="@+id/btnUserProfileShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Perfil"
+        android:onClick="OnClick"/>
+
+    <Button
+        android:id="@+id/btnBackHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="8"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Salir"
+        android:onClick="OnClick"/>
+
+
+
+
+</LinearLayout>
